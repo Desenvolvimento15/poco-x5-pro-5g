@@ -4,5 +4,6 @@ $('.galeria').slick({
   speed: 700,
   fade: true,
   autoplay: true,
-  cssEase: 'linear'
+  cssEase: 'linear',
+  adaptiveHeight: true,
 });
